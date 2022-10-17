@@ -70,9 +70,9 @@ function Home2() {
                   href="https://github.com/itsjinendrajain"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="text-center  icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <AiFillGithub className="w-8 h-8" />
                 </a>
               </li>
               <li className="social-icons">
@@ -80,9 +80,9 @@ function Home2() {
                   href="https://twitter.com/itsjinendrajain"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="text-center  icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineTwitter className="w-8 h-8" />
                 </a>
               </li>
               <li className="social-icons">
@@ -90,9 +90,9 @@ function Home2() {
                   href="https://www.linkedin.com/in/itsjinendrajain/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="text-center icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <FaLinkedinIn className="w-8 h-8" />
                 </a>
               </li>
               <li className="social-icons">
@@ -100,9 +100,9 @@ function Home2() {
                   href="https://www.instagram.com/itsjinendrajain/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
+                  className="text-center icon-colour home-social-icons"
+                > 
+                  <AiFillInstagram className="w-8 h-8"/>
                 </a>
               </li>
             </ul>

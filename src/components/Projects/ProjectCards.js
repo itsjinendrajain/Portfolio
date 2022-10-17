@@ -13,9 +13,12 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        {props.ghLink && <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
+        {props.ghLink && <Button className="flex flex-col justify-center" variant="primary" href={props.ghLink} target="_blank">
+          
+          <div>
+            <BsGithub className="inline-block" /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
+          </div>
         </Button>
         }
 
@@ -31,8 +34,11 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+            <div>
+              <CgWebsite className="inline-block" /> &nbsp;
+              {"Demo"}
+              </div>
+              
           </Button>
         )}
       </Card.Body>

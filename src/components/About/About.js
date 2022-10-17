@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import MoreAboutMe from "./MoreAboutMe";
 
 function About() {
   return (
@@ -26,6 +27,10 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
+          
+           
+
+          
           <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
@@ -34,6 +39,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+        <MoreAboutMe />
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>

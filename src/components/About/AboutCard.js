@@ -16,14 +16,14 @@ function AboutCard() {
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
+            <li className="about-activity  ">
+              <ImPointRight className="inline-block mr-2" /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <ImPointRight className="inline-block mr-2" /> Writting Tech Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight className="inline-block mr-2" /> Travelling
             </li>
           </ul>
 

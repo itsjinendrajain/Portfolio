@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
+import Presto from "../../Assets/Projects/Presto.png";
 import FoodWaves from "../../Assets/Projects/FoodWaves.png";
 import IEEECIET from "../../Assets/Projects/IEEE-CIET.png";
 
@@ -21,11 +22,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={Presto}
+              isBlog={false}
+              title="Presto E-Commerce Website "
+              description="An E-Commerce Website with ordering functionality, a team project leveraging GitHub for collaboration."
+              ghLink="https://github.com/jagritvats/Presto-ECommerce-Website"
+              demoLink="https://prestoj.netlify.app/#/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={FoodWaves}
               isBlog={false}
               title="FoodWaves"
               
-              description="FoodWaves : Find Recipe of Your Favorite Food. You can Recipe by Different Categories, Countries, Alphabetical, Ingredients. Made with ReactJS and themealdb API."
+              description="Find Recipe of Your Favorite Food. You can Recipe by Different Categories, Countries, Alphabetical, Ingredients. Made with ReactJS and themealdb API."
               ghLink="https://github.com/itsjinendrajain/FoodWaves"
               demoLink="https://foodwaves.itsjinendrajain.com/"
             />
@@ -52,6 +63,7 @@ function Projects() {
               demoLink="https://ieee.chitkara.edu.in/"
             />
           </Col>
+
 
           
         </Row>
