@@ -3,7 +3,7 @@
   <a href="https://itsjinendrajain.com/" target="_blank">itsjinendrajain.com</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  
 </div>
 
 <br/>
